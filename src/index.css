@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(https://www.peluker.com/blog/wp-content/uploads/2024/03/%C2%BFcuanto-cuesta-una-barberia.jpeg);
+  background-image: url(img/img-background.png);
   background-size: cover;
   background-position: center;
   /*  this is where the magic happens:  */
@@ -55,7 +55,7 @@ a {
 }
 
 .second {
-  background-image: url(https://www.comunicare.es/wp-content/uploads/2021/01/Publicidad-para-barberia.jpg);
+  background-image: url(img/background_section_about.jpg);
   background-attachment: fixed;
   height: 1200px;
 }
