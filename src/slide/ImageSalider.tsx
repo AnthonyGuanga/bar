@@ -16,6 +16,7 @@ const slideStyles: React.CSSProperties = {
   borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
+  transition: "background-image 0.8s ease-in-out", // Agregamos la transición
 };
 
 const rightArrowStyles: React.CSSProperties = {
