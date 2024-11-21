@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right bottom, rgba(255, 193, 103, 0.8), rgba(179, 132, 16, 0.68)), url(https://www.comunicare.es/wp-content/uploads/2021/01/Publicidad-para-barberia.jpg);
+  background-image: linear-gradient(to right bottom, rgba(255, 193, 103, 0.8), rgba(179, 132, 16, 0.68)), url(/img/background_section.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -40,7 +40,7 @@
   font-size: 0.875rem;
 }
 .barbershop--second {
-  background-image: url(https://www.comunicare.es/wp-content/uploads/2021/01/Publicidad-para-barberia.jpg);
+  background-image: url(/img/background_section_about.jpg);
   background-attachment: fixed;
   height: 1200px;
 }
@@ -92,6 +92,7 @@
   min-height: 60vh;
   background-color: var(--color);
 }
+
 .barbershop--second {
   flex-direction: row;
   gap: 1.6em;
