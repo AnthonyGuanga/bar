@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "compile:sass": "node-sass --watch sass/main.scss src/index.css",
     "lint": "eslint .",
     "preview": "vite preview"
   },

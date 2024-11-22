@@ -1,5 +1,7 @@
 import "./index.css";
 import Carousel from "./slider/Carousel";
+import Tarifas from './Tarifas';
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -60,7 +62,13 @@ const App = () => {
         </div>
       </div>
 
-      <div className="blank"></div>
+      <div className="blank">
+        <Tarifas></Tarifas>
+      </div>
+
+      <Footer></Footer>
+
+
     </div>
   );
 };
