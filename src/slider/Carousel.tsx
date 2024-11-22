@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./add.css";
 
 // https://react-slick.neostack.com
+//npm install react-slick --save
+//npm install slick-carousel --save
 
 interface ArrowProps {
   className?: string;

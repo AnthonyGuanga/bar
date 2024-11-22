@@ -29,7 +29,7 @@
     font-weight: 700;
     font-size: 15rem;
   }
-  
+
   &__title--secondary {
     font-weight: 500;
     font-size: 10rem;
@@ -57,12 +57,12 @@
   &--second {
     background-image: url(/img/background_section_about.jpg);
     background-attachment: fixed;
-    height: 1200px;
+    height: 120rem;
   }
 
   &__item {
     display: flex;
-    max-width: 320px;
+    max-width: 32rem;
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -72,11 +72,11 @@
 
   &__img {
     width: 90%;
-    height: 200px;
+    height: 20rem;
     background-color: lightgrey;
     background-size: cover;
     background-position: center;
-    margin-top: 20px;
+    margin-top: 2rem;
     border-radius: 0.3em;
 
     &--first {
