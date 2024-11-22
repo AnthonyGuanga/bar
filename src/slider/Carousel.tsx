@@ -25,7 +25,7 @@ function Carousel() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
@@ -46,11 +46,26 @@ function Carousel() {
     ],
   };
   return (
-    <div className="container">
+    <div className="container__img">
       <h2> single item</h2>
       <Slider {...settings}>
         <div className="card">
-          <img src="/img/a.jpg" className="w-100" />
+          <img src="/img/a.jpg" className="card__foto" />
+          <h3>slider</h3>
+          <p>Use una libreria de reacd</p>
+        </div>
+        <div className="card">
+          <img className="card__foto" src="/img/slider--npc--2.jpeg" />
+          <h3>slider</h3>
+          <p>Use una libreria de reacd</p>
+        </div>
+        <div className="card">
+          <img className="card__foto" src="/img/slider--npc--3.jpeg" />
+          <h3>slider</h3>
+          <p>Use una libreria de reacd</p>
+        </div>
+        <div className="card">
+          <img className="card__foto" src="/img/slider--npc--4.jpeg" />
           <h3>slider</h3>
           <p>Use una libreria de reacd</p>
         </div>
@@ -60,34 +75,7 @@ function Carousel() {
           <p>Use una libreria de reacd</p>
         </div>
         <div className="card">
-          <img
-            className="card__foto"
-            src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/05/19/16529545004859.jpg"
-          />
-          <h3>slider</h3>
-          <p>Use una libreria de reacd</p>
-        </div>
-        <div className="card">
-          <img
-            className="card__foto"
-            src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/05/19/16529545004859.jpg"
-          />
-          <h3>slider</h3>
-          <p>Use una libreria de reacd</p>
-        </div>
-        <div className="card">
-          <img
-            className="card__foto"
-            src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/05/19/16529545004859.jpg"
-          />
-          <h3>slider</h3>
-          <p>Use una libreria de reacd</p>
-        </div>
-        <div className="card">
-          <img
-            className="card__foto"
-            src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/05/19/16529545004859.jpg"
-          />
+          <img className="card__foto" src="/img/a.jpg" />
           <h3>slider</h3>
           <p>Use una libreria de reacd</p>
         </div>
