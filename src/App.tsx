@@ -7,18 +7,17 @@ const App = () => {
   return (
     <div>
       <div className="barbershop">
-        <h1 className="barbershop__title">Barberia</h1>
+        <h1 className="barbershop__title">Dav's & Ant</h1>
+        <h3 className="barbershop__title--secondary">Barbershop</h3>
         <p className="barbershop__description">
-          Zlatibor is a mountain of exceptional beauty whose special
-          geographical properties have made this mountain a real gem of western
-          Serbia.
+          Un servicio como nunca antes visto
+          Lleva tu estilo a otro nivel
         </p>
         <a className="barbershop__link" href="#">
-          Learn more
+          Más sobre nosotros
         </a>
       </div>
       <Carousel />
-      <div className=""></div>
 
       <div className="barbershop barbershop--second">
         <div className="barbershop__item">
@@ -65,9 +64,9 @@ const App = () => {
       <div className="blank">
         <Tarifas></Tarifas>
       </div>
-
+      <div>
       <Footer></Footer>
-
+      </div>
 
     </div>
   );

@@ -3,14 +3,17 @@ import "../sass/animations.scss";
 
 const Footer: React.FC = () => {
     return (
-        <footer className="footer">
-            <div className="footer__logo-box">
+        <>
+        <div className="footer__logo-box">
                 <img
                     src="../img/icon-logo.png"
                     alt="icono barberia"
                     className="footer__logo"
+                    
                 />
             </div>
+        <footer className="footer">
+            
             <div className="footer__slider">
                 <div className="footer__slide-track">
                     {[
@@ -35,6 +38,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </footer>
+        </>
     );
 };
 

@@ -27,7 +27,12 @@
 
   &__title {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 15rem;
+  }
+  
+  &__title--secondary {
+    font-weight: 500;
+    font-size: 10rem;
   }
 
   &__description {
